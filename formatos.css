@@ -1,0 +1,77 @@
+h2 {
+    background-color: yellow;
+    text-align: justify;
+}
+p{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.importantes{
+    color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul{
+    color: green;
+}
+ol{
+    color: indigo;
+    font-style: oblique;
+}
+
+#azul{
+    width: 200px;
+    height: 200 px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#azul:hover{
+    background-color: red;
+}
+
+
+.caja1{
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,3a84c3+39,3a84c3+39,6199c7+50,419ad6+63,4bb8f0+71,3a8bc2+84,26558b+99 */
+background: rgb(206,219,233); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%, rgba(58,132,195,1) 39%, rgba(58,132,195,1) 39%, rgba(97,153,199,1) 50%, rgba(65,154,214,1) 63%, rgba(75,184,240,1) 71%, rgba(58,139,194,1) 84%, rgba(38,85,139,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(58,132,195,1) 39%,rgba(58,132,195,1) 39%,rgba(97,153,199,1) 50%,rgba(65,154,214,1) 63%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(58,132,195,1) 39%,rgba(58,132,195,1) 39%,rgba(97,153,199,1) 50%,rgba(65,154,214,1) 63%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+
+   
+box-shadow: 10 -10 5px black;/* eje x - eje Y - blur - color */
+margin-bottom: 20px;
+
+border-radius: 108px 57px 111px 53px;
+   
+/*-webkit-border-radius: 108px 57px 111px 53px;
+-moz-border-radius: 108px 57px 111px 53px;*/
+padding: 20px;
+border: 23px solid #32696d;
+box-shadow: 10 -60 5px black;/* eje x - eje Y - blur - color */
+
+text-align: center;
+
+
+}
+
+.iconos{
+    font-size: 40px;
+}
+
+
+.texto  {
+    /* esto sirve para poner columnas a las cajas*/
+    
+    width: 600px;
+    column-count: 3; /* cantiad de columnas*/
+    column-rule: 1px solid black; /* linea separadora entre columnas*/
+    background-color: cadetblue;
+    
+    }
